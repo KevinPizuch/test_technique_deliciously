@@ -21,10 +21,17 @@ si tu as eu des difficultés sur certains points:
 
 nous transmettre des infos essentiels sur le build de ton projet:
     J'ai exporté la base de données utilisé pendant ce test techinique ("deliciously.sql"),
-    il suffira de l'importer via Navicat ou bien via le terminal => mysql -u username -p database_name < /path/to/file.sql
-                                                                    mysql> use db_name;
-                                                                    mysql> source backup-file.sql;
-
+ 
+Créer la bdd mysql:
+    $ mysql -u root -p
+        mysql> CREATE DATABASE IF NOT EXISTS deliciously;
+        mysql> USE deliciously;
+       
+Importer la bdd mysql via le terminal:
+    mysql -u username -p deliciously < /path/to/file.sql
+    mysql> use delicioulsy;
+    mysql> source backup-file.sql;
+    
 Infos bdd mysql :
     localhost
     login : root
