@@ -7,16 +7,16 @@ projet.
 
 expliquer certaines parties de ton code:
     Api: je suis partie sur une structure Model-Routes-Controllers-Services afin d'avoir un code bien structuré.
-    Client : partie components qui gère l'affichage des données, partie services qui est la gestion des diffentes requêtes vers l'API
-    Gestion SignIn/LogIn : utilisation de JsonWebToken & Sequelize 
+    Client : partie components qui gère l'affichage des données, partie services qui est la gestion des diffentes requêtes vers l'API.
+    Gestion SignIn/LogIn : utilisation de JsonWebToken & Sequelize.
 
 
 choix:
-    choix de la base de données : j'ai préférer choisir MySQL car selon moi, il convient parfaitement aux données structuré qui circulent entre le client et l'api
+    choix de la base de données : j'ai préférer choisir MySQL car selon moi, il convient parfaitement aux données structuré qui circulent entre le client et l'api.
 
 
 si tu as eu des difficultés sur certains points:
-    Pas de difficultés en particulier
+    Pas de difficultés en particulier.
 
 
 nous transmettre des infos essentiels sur le build de ton projet:
@@ -44,7 +44,7 @@ Lancer la web app :
 
 
 J'ai vraiment apprécié ce test technique, c'est pourquoi je me suis permis de rajouter une interface de gestion des fiches restaurant avec un aperçu en temps réel des modifications apportées.
-Pour accéder à cette interface, il faut se connecter en tant qu'administrateur sur l'application web et cliquer sur Admin Board (en haut à gauche)
+Pour accéder à cette interface, il faut se connecter en tant qu'administrateur sur l'application web et cliquer sur Admin Board (en haut à gauche).
 
 logs du site:
     en tant qu'administrateur :
