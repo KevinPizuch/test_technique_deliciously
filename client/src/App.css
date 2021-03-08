@@ -1,0 +1,222 @@
+html,body{
+  height: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.header-main{
+  height: 100px;
+  background-color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-main .header-row {
+  text-align: center;
+  width: 100%;
+}
+
+section{
+  width: 100%;
+}
+
+.body-main{
+  margin-top: 20%;
+}
+
+#root{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.body-main-container{
+  margin: auto;
+  max-width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.body-container-button{
+  background-color: #fe3e4c;
+  border: none;
+  border-radius: 26px;  
+  color: white;
+  padding: 10px 100px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.body-container-button:hover{
+  background-color: #f8a895;
+}
+
+.btn{
+  background-color: #fe3e4c;
+}
+
+
+.close{
+  position: absolute;
+  top: 2%;
+  left: 94%;
+}
+.modal-body{
+  padding: 0 !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+}
+.modal-restaurant-img{
+  width: 370px;
+  height: 370px;
+  margin: auto;
+}
+.modal-container{
+  max-width: 28em !important;
+}
+
+
+.modal-restaurant-img img{
+  width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.modal-restaurant-name-category{
+  padding-top: 20px;
+  line-height: 0.4em;
+}
+
+.modal-restaurant-adress-town{
+  padding-top: 10px;
+  line-height: 0.4em;
+}
+
+.modal-restaurant-name-category h4{
+  font-weight: bold;
+}
+
+.modal-restaurant-details{
+  height: 80px;
+  min-width: 10%;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+}
+
+.modal-restaurant-details-icons-wrapper{
+  background-color: #fe224c;
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  margin: auto;
+}
+
+.modal-restaurant-details-icons{
+  width: 80px;
+  height: 80px;
+  margin-right: 10px;
+}
+
+.modal-restaurant-details-icons-wrapper img{
+  width: 40px;
+  height: 40px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.modal-restaurant-details-icons p{
+  font-size: 0.8em;
+  margin-top: 3px;
+  text-align: center;
+}
+
+#country {
+  background-color: white !important;
+  border: 1px solid #fe224c !important;
+}
+
+#country img{
+  margin-left: 9px !important;
+}
+
+.signIn-logIn-btn{
+  display: flex;
+  justify-content: space-between;
+}
+
+.modal-form{
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+.board-admin-container{
+  width: 75%;
+  height: 700px;
+  margin: auto;
+  margin-top: 5%;
+  display: flex;
+  border: 2px solid #343a40;
+}
+
+.board-admin-container h3{
+  text-align: center;
+  color: rgba(255,255,255,.5);
+}
+
+.board-admin-restaurant-list{
+  width: 30%;
+  height: 100%;
+  background-color: #343a40;
+}
+
+.board-admin-restaurant-content{
+  width: 70%;
+  display: flex;
+}
+
+.board-admin-restaurant-content-modify{
+  width: 50%;
+  border-right: 2px solid black;
+}
+
+.board-admin-restaurant-content-preview{
+  width: 50%;
+  
+}
+
+.board-admin-restaurant-wrapper-preview{
+  width: 370px;
+  margin: auto;
+}
+
+
+.board-admin-restaurant-list-content{
+  margin-top: 40px;
+  text-align: center;
+  color: rgba(255,255,255,.5);
+}
+
+.board-admin-restaurant-list-content p:hover{
+  color:rgba(255,255,255,.75);
+  cursor: pointer;
+}
+
+@media screen and (max-width: 680px) {
+  .body-main-container{
+    flex-wrap: wrap;
+  }
+}
+
